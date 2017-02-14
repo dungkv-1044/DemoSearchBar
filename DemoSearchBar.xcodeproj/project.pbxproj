@@ -13,6 +13,7 @@
 		3C37971C1E528F4700CD6CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C37971B1E528F4700CD6CAD /* Assets.xcassets */; };
 		3C37971F1E528F4700CD6CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C37971D1E528F4700CD6CAD /* LaunchScreen.storyboard */; };
 		3C37972A1E528F4700CD6CAD /* DemoSearchBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3797291E528F4700CD6CAD /* DemoSearchBarTests.swift */; };
+		3C3797351E528FB900CD6CAD /* SearchBarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3797341E528FB900CD6CAD /* SearchBarTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		3C3797251E528F4700CD6CAD /* DemoSearchBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoSearchBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C3797291E528F4700CD6CAD /* DemoSearchBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoSearchBarTests.swift; sourceTree = "<group>"; };
 		3C37972B1E528F4700CD6CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C3797341E528FB900CD6CAD /* SearchBarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				3C37971B1E528F4700CD6CAD /* Assets.xcassets */,
 				3C37971D1E528F4700CD6CAD /* LaunchScreen.storyboard */,
 				3C3797201E528F4700CD6CAD /* Info.plist */,
+				3C3797341E528FB900CD6CAD /* SearchBarTableViewController.swift */,
 			);
 			path = DemoSearchBar;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 			files = (
 				3C3797171E528F4700CD6CAD /* ViewController.swift in Sources */,
 				3C3797151E528F4700CD6CAD /* AppDelegate.swift in Sources */,
+				3C3797351E528FB900CD6CAD /* SearchBarTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
